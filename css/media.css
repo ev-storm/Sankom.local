@@ -1,0 +1,128 @@
+@media (max-width: 600px) {
+  :root {
+    --title: 15px;
+    --btn: 8px;
+    --h1: 12px;
+    --h2: 10px;
+    --h3: 8px;
+    --h3-card: 14px;
+  }
+  .text-slide h1 {
+    font-size: 30px;
+  }
+  nav {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .content-slide {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-slide .btn {
+    width: 100%;
+  }
+  .item-text {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    background: var(--gray);
+    padding: 20px 40px;
+    border-radius: 8px;
+    z-index: 99;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .item-img {
+    display: none;
+  }
+  .block_2 {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .item-con {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    transform: translateX(-13%);
+  }
+  .item-text img {
+    margin-right: 20px;
+    width: 40%;
+  }
+  .call-back-con {
+    height: fit-content;
+  }
+  .form-con {
+    margin: 0;
+  }
+  .call-back-form button {
+    width: 100%;
+  }
+  .call-back-form input {
+    margin: 0 0 10px 0;
+  }
+  .call-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    color: #fff;
+    align-content: center;
+  }
+  .footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+  }
+  .podp {
+    margin: 0;
+  }
+  .footer-form {
+    display: flex;
+  }
+  .map-banner {
+    background: var(--orange);
+    width: 100%;
+    padding: 10px 40px;
+    transform: translateY(100%);
+    z-index: 999;
+    border-bottom-right-radius: 12px;
+  }
+  .block-1 {
+    padding: 0 8%;
+  }
+  .block-2 {
+    padding: 0 8%;
+  }
+  .block-3 {
+    padding: 0 8%;
+  }
+  .block-4 {
+    padding: 0 5%;
+  }
+  .block-title {
+    width: 100%;
+  }
+  .text-slide {
+    margin: 5%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    transform: translateY(320px);
+  }
+  .slide-logo {
+    display: none;
+  }
+  .menu-con {
+    display: none;
+  }
+}

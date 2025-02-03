@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 @import url("menu.css");
 @import url("main.css");
+@import url("footer.css");
+@import url("modal.css");
+@import url("media.css");
 
 :root {
   --title: 25px;

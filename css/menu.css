@@ -144,3 +144,95 @@ nav ul ul li:hover {
 ._list:hover::after {
   transform: scaleX(1);
 }
+
+/* ------------------------------------------------------------------------ */
+/* 
+.burger-con {
+  display: none;
+}
+.mob_menu {
+  display: none;
+}
+
+.menu-con {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: 100vw;
+  z-index: 99999;
+  background-color: #00020591;
+  backdrop-filter: blur(15px);
+}
+
+.menu {
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 10% 0 10%;
+  transition: var(--tran_05);
+}
+
+.logo {
+  width: 100%;
+}
+.menu .logo img {
+  cursor: pointer;
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+}
+.menu-btn .cont-btn {
+  display: flex;
+}
+.menu-btn .cont-btn a {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.menu-btn .cont-btn a img {
+  margin: 0 10px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: var(--tran_03);
+  width: 30px;
+}
+.menu-btn .cont-btn a:hover img {
+  width: 20px;
+  transition: var(--tran_03);
+}
+.menu-btn button {
+  margin: 0 10px;
+}
+.nav-con {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+}
+.nav {
+  margin: 20px 10px;
+}
+.nav a {
+  color: var(--gray);
+  font-size: 15px;
+  cursor: pointer;
+  transition: var(--tran_03);
+}
+.nav a:hover {
+  color: #ffffff;
+  transition: var(--tran_03);
+}
+
+.nav span {
+  color: var(--gray);
+  font-size: 15px;
+  padding: 0 10px;
+  cursor: default;
+} */
