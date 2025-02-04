@@ -5,28 +5,28 @@
     <ul>
         <li class="-list">Каталог
 						<ul>
-								<li class="_list">Продукция SANKOM</li>
-								<li class="_list">Втулки</li>
-								<li class="_list">Наклейки</li>
-								<li class="_list">Крепёж</li>
-								<li class="_list">Шумоизоляция</li>
-								<li class="_list">Тёплый пол</li>
-								<li class="_list">Наклейки</li>
+								<li class="_list"><a href="https://sankom.shop/catalog">Продукция SANKOM</li></a>
+								<li class="_list"><a href="https://sankom.shop/catalog/tproduct/484417053-275659883391-vtulki-na-teploizolyatsiyu">Втулки</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%9D%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B8&tfc_div=:::">Наклейки</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%9A%D1%80%D0%B5%D0%BF%D1%91%D0%B6&tfc_div=:::">Крепёж</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%A8%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F&tfc_div=:::">Шумоизоляция</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%A2%D1%91%D0%BF%D0%BB%D1%8B%D0%B9+%D0%BF%D0%BE%D0%BB&tfc_div=:::">Тёплый пол</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%D1%8B&tfc_div=:::">Наклейки</a></li>
 						</ul>
         </li>
 				
-				<li class="_list">Оплата и доставка</li>
-        <li class="_list">Монтажные работы</li>
+				<li class="_list"><a href="https://sankom.shop/delivery">Оплата и доставка</a></li>
+       	<li class="_list"><a href="https://sankom.shop/"> Монтажные работы</a></li>
 				<li class="-list">O нас
 					<ul>
-								<li class="_list">О компании</li>
-								<li class="_list">Вакансии</li>
-								<li class="_list">Мы в лицах</li>
-								<li class="_list">Документы</li>
-								<li class="_list">Контакты</li>
+								<li class="_list"><a href="https://sankom.shop/company">О компании</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Вакансии</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Мы в лицах</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Документы</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Контакты</a></li>
 						</ul>
 				</li>
-        <li class="_list">Контакты</li>
+        <li class="_list"><a href="https://sankom.shop/company">Контакты</a></li>
     </ul>
 </nav>
 		<div class="contact-con">
@@ -36,12 +36,12 @@
 			</div>
 			<button class="btn btn-modal-call">заказать звонок</button>
 			<div class="contact-btn">
-				<a href="#"><img src="/assets/svg/link/wt.svg" alt="WhatsApp"></a>
-				<a href="#"><img src="/assets/svg/link/tg.svg" alt="Telegram"></a>
-				<a href="#"><img src="/assets/svg/link/yt.svg" alt="YouTube"></a>
-				<a href="#"><img src="/assets/svg/link/vk.svg" alt="VK"></a>
-				<a href="#"><img src="/assets/svg/link/dz.svg" alt="dzen"></a>
-				<a href="#"><img src="/assets/svg/link/cart.svg" alt="cart"></a>
+				<a href="https://wa.me/79060813333" target="_blank"><img src="/assets/svg/link/wt.svg" alt="WhatsApp"></a>
+				<a href="https://t.me/Sankom_pro" target="_blank"><img src="/assets/svg/link/tg.svg" alt="Telegram"></a>
+				<a href="https://www.youtube.com/channel/UCeoYdMgmqD2aistQgUEu0XA" target="_blank"><img src="/assets/svg/link/yt.svg" alt="YouTube"></a>
+				<a href="https://vk.com/sankompro" target="_blank"><img src="/assets/svg/link/vk.svg" alt="VK"></a>
+				<a href="https://sankom.shop/catalog" target="_blank"><img src="/assets/svg/link/dz.svg" alt="dzen"></a>
+				<a href="https://dzen.ru/sankompro" target="_blank"><img src="/assets/svg/link/cart.svg" alt="cart"></a>
 			</div>
 		</div>
 	</div>
@@ -64,40 +64,42 @@
 
 		<nav class="nav-mob">
 				<ul>
-						<li class="-list">Каталог
-								<ul>
-										<li class="_list">Продукция SANKOM</li>
-										<li class="_list">Втулки</li>
-										<li class="_list">Наклейки</li>
-										<li class="_list">Крепёж</li>
-										<li class="_list">Шумоизоляция</li>
-										<li class="_list">Тёплый пол</li>
-										<li class="_list">Наклейки</li>
-								</ul>
-						</li>
-						
-						<li class="_list">Оплата и доставка</li>
-						<li class="_list">Монтажные работы</li>
-						<li class="-list">O нас
-							<ul>
-										<li class="_list">О компании</li>
-										<li class="_list">Вакансии</li>
-										<li class="_list">Мы в лицах</li>
-										<li class="_list">Документы</li>
-										<li class="_list">Контакты</li>
-								</ul>
-						</li>
-						<li class="_list">Контакты</li>
-				</ul>
+        <li class="-list">Каталог
+						<ul>
+								<li class="_list"><a href="https://sankom.shop/catalog">Продукция SANKOM</li></a>
+								<li class="_list"><a href="https://sankom.shop/catalog/tproduct/484417053-275659883391-vtulki-na-teploizolyatsiyu">Втулки</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%9D%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B8&tfc_div=:::">Наклейки</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%9A%D1%80%D0%B5%D0%BF%D1%91%D0%B6&tfc_div=:::">Крепёж</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%A8%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F&tfc_div=:::">Шумоизоляция</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%A2%D1%91%D0%BF%D0%BB%D1%8B%D0%B9+%D0%BF%D0%BE%D0%BB&tfc_div=:::">Тёплый пол</a></li>
+								<li class="_list"><a href="https://sankom.shop/catalog?tfc_storepartuid[484417053]=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%D1%8B&tfc_div=:::">Наклейки</a></li>
+						</ul>
+        </li>
+				<li class="_list"><a href="https://sankom.shop/delivery">Оплата и доставка</a></li>
+       	<li class="_list"><a href="https://sankom.shop/"> Монтажные работы</a></li>
+				<li class="-list">O нас
+					<ul>
+								<li class="_list"><a href="https://sankom.shop/company">О компании</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Вакансии</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Мы в лицах</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Документы</a></li>
+								<li class="_list"><a href="https://sankom.shop/company">Контакты</a></li>
+						</ul>
+				</li>
+        <li class="_list"><a href="https://sankom.shop/company">Контакты</a></li>
+    </ul>
 		</nav>
 
 		<div class="menu-btn">
 			<button class="btn btn-modal-call">связаться с нами</button>
 			<div class="cont-btn-mob">
-					<a  href="#" target="_blanc"><img src="/assets/svg/link/wt.svg" alt="wapp"></a>
-					<a  href="#" target="_blanc"><img src="/assets/svg/link/tg.svg" alt="tg"></a>
-					<a  href="#" target="_blanc"><img src="/assets/svg/link/vk.svg" alt="phone"></a>
-					<a  href="#" target="_blanc"><img src="/assets/svg/link/phone.svg" alt="mail"></a>
+		
+				<a  href="tel:+74950212822" target="_blanc"><img src="/assets/svg/link/phone.svg" alt="mail"></a>
+				<a href="https://wa.me/79060813333" target="_blank"><img src="/assets/svg/link/wt.svg" alt="WhatsApp"></a>
+				<a href="https://t.me/Sankom_pro" target="_blank"><img src="/assets/svg/link/tg.svg" alt="Telegram"></a>
+				<a href="https://www.youtube.com/channel/UCeoYdMgmqD2aistQgUEu0XA" target="_blank"><img src="/assets/svg/link/yt.svg" alt="YouTube"></a>
+				<a href="https://vk.com/sankompro" target="_blank"><img src="/assets/svg/link/vk.svg" alt="VK"></a>
+				<a href="https://sankom.shop/catalog" target="_blank"><img src="/assets/svg/link/dz.svg" alt="dzen"></a>
 				</div>
 		</div>
 

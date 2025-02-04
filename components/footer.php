@@ -7,12 +7,12 @@
 		<nav class="menu-footer">
 			<ul>
 				<a href="#"><li><b>Меню</b></li></a>
-				<a href="#"><li class="_list">Каталог</li></a>
-				<a href="#"><li class="_list">О компании</li></a>
-				<a href="#"><li class="_list">Оплата и доставка</li></a>
-				<a href="#"><li class="_list">Блог</li></a>
-				<a href="#"><li class="_list">Монтажные работы</li></a>
-				<a href="#"><li class="_list">Контакты</li></a>
+				<a href="https://sankom.shop/catalog"><li class="_list">Каталог</li></a>
+				<a href="https://sankom.shop/company"><li class="_list">О компании</li></a>
+				<a href="https://sankom.shop/company"><li class="_list">Оплата и доставка</li></a>
+				<a href="https://sankom.shop/company"><li class="_list">Блог</li></a>
+				<a href="https://sankom.shop/company"><li class="_list">Монтажные работы</li></a>
+				<a href="https://sankom.shop/company"><li class="_list">Контакты</li></a>
 			</ul>
 		</nav>
 

@@ -38,7 +38,7 @@
 							<div class="text-slide">
 								<h1>Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
-								<button class="btn">перейти в католог</button>
+								<button class="btn"><a href="https://sankom.shop/catalog">перейти в католог</a></button>
 							</div>
 						</div>
 					</div>
@@ -48,7 +48,7 @@
 							<div class="text-slide">
 								<h1>Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
-								<button class="btn">перейти в католог</button>
+								<button class="btn"><a href="https://sankom.shop/catalog">перейти в католог</a></button>
 							</div>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 							<div class="text-slide">
 								<h1>Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
-								<button class="btn">перейти в католог</button>
+								<button class="btn"><a href="https://sankom.shop/catalog">перейти в католог</a></button>
 							</div>
 						</div>
 					</div>
@@ -68,7 +68,7 @@
 							<div class="text-slide">
 								<h1> Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
-								<button class="btn">перейти в католог</button>
+								<button class="btn"><a href="https://sankom.shop/catalog">перейти в католог</a></button>
 							</div>
 						</div>
 					</div>
@@ -146,7 +146,7 @@
     </div>
  </div>
 <div class="btn-card-con">
-	<button class="btn">смотреть всё</button>
+	<button class="btn"><a href="https://sankom.shop/catalog">смотреть всё</a></button>
 </div>
 
 <div class="block_2">
