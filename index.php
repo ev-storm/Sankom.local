@@ -6,6 +6,7 @@
 
 	<link rel="stylesheet"  href="/css/master.css">
 	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
 	 <script defer src="/js/main.js"></script>
 	 
@@ -19,7 +20,7 @@
 	<meta name="keywords" content="теги СЕО">
 
 	<!-- fav -->
-	<link type="Image/x-icon" href="/assets/svg/fav.ico" rel="icon">
+	<link  href="/assets/svg/logo.ico" rel="icon">
 
 	<title>Главная</title>
 </head>
@@ -45,7 +46,7 @@
 							<div class="content-slide">
 							<div class="slide-logo"><img src="/assets/svg/logo-mini.svg" alt="logo"></div>
 							<div class="text-slide">
-								<h1>2 Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
+								<h1>Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
 								<button class="btn">перейти в католог</button>
 							</div>
@@ -55,7 +56,7 @@
 							<div class="content-slide">
 							<div class="slide-logo"><img src="/assets/svg/logo-mini.svg" alt="logo"></div>
 							<div class="text-slide">
-								<h1>3 Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
+								<h1>Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
 								<button class="btn">перейти в католог</button>
 							</div>
@@ -65,7 +66,7 @@
 							<div class="content-slide">
 							<div class="slide-logo"><img src="/assets/svg/logo-mini.svg" alt="logo"></div>
 							<div class="text-slide">
-								<h1> 4 Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
+								<h1> Мы производим инженерную сантехнику,<br> которая увеличивает прибыль вашего бизнеса</h1>
 								<h2>Гарантируем стабильность поставок, качество продукции и выгодные условиядля долгосрочного сотрудничества.</h2>
 								<button class="btn">перейти в католог</button>
 							</div>
@@ -126,6 +127,12 @@
                 <img src="/assets/img/cards/shum.png" alt="">
                 <h2>Шумоизоляция</h2>
                 <h3>Наборы для шумоизоляции канализационных стояков и ванн.</h3>
+            </div>
+
+						<div class="swiper-slide cards-slide">
+                <img src="/assets/img/cards/nab.png" alt="">
+                <h2>Наборы</h2>
+                <h3>Все что нужно в одном наборе сразу</h3>
             </div>
 
 						<div class="swiper-slide cards-slide">
@@ -285,28 +292,26 @@
 					<div class="swiper-wrapper part-wrapper">
 
 							<div class="swiper-slide part-slide">
-									<img  src="/assets/img/part/3M 1.png" alt="">
+									<img  src="/assets/svg/part/1.svg" alt="">
 							</div>
 
 							<div class="swiper-slide part-slide">
-								<img  src="/assets/img/part/DeWalt 1.png" alt="">
+								<img  src="/assets/svg/part/2.svg" alt="">
 							</div>
 
 							<div class="swiper-slide part-slide">
-								<img  src="/assets/img/part/Hoegert_logo.png" alt="">
+								<img  src="/assets/svg/part/3.svg" alt="">
 							</div>
 
 							<div class="swiper-slide part-slide">
-								<img  src="/assets/img/part/image 18.png" alt="">
+								<img  src="/assets/svg/part/4.svg" alt="">
 							</div>
 
 							<div class="swiper-slide part-slide">
-								<img  src="/assets/img/part/Karcher-2.png" alt="">
+								<img  src="/assets/svg/part/5.svg" alt="">
 							</div>
+							
 
-							<div class="swiper-slide part-slide">
-								<img  src="/assets/img/part/Makita.png" alt="">
-							</div>
 
 						
 							

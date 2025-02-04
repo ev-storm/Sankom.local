@@ -39,6 +39,9 @@ html {
 .text-cat-mob {
   display: flex;
 }
+a {
+  text-decoration: none;
+}
 body {
   display: flex;
   width: 100%;
@@ -98,4 +101,15 @@ h3 {
   font-family: "Montserrat";
   font-weight: 500;
   font-size: var(--h3-card);
+}
+span {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 13px;
+}
+.mob-menu {
+  display: none;
+}
+.logo_menu {
+  display: none;
 }

@@ -5,15 +5,27 @@ const tSwiper = new Swiper(".title-swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false, // Здесь можно указать, нужно ли реагировать только на события, когда слайдер в области видимости
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  loop: true,
+  loop: false,
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
   },
+});
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "ArrowRight") {
+    tSwiper.slideNext(); // Переход к следующему слайду
+  } else if (event.key === "ArrowLeft") {
+    tSwiper.slidePrev(); // Переход к предыдущему слайду
+  }
 });
 
 // const cSwiper = new Swiper(".cards-swiper", {
@@ -53,7 +65,7 @@ const cSwiper = new Swiper(".cards-swiper", {
 
 function updateSlidesPerView() {
   if (window.innerWidth <= 600) {
-    cSwiper.params.slidesPerView = 2;
+    cSwiper.params.slidesPerView = 1;
   } else {
     cSwiper.params.slidesPerView = 7;
   }
@@ -77,7 +89,7 @@ const sSwiper = new Swiper(".sertif-swiper", {
 
 function supdateSlidesPerView() {
   if (window.innerWidth <= 600) {
-    sSwiper.params.slidesPerView = 2;
+    sSwiper.params.slidesPerView = 1;
   } else {
     sSwiper.params.slidesPerView = 4;
   }
@@ -94,15 +106,15 @@ const pSwiper = new Swiper(".part-swiper", {
   spaceBetween: 100,
   loop: true,
   autoplay: {
-    delay: 4000,
+    delay: 2000,
     disableOnInteraction: false,
   },
 });
 function pupdateSlidesPerView() {
   if (window.innerWidth <= 600) {
-    pSwiper.params.slidesPerView = 2;
+    pSwiper.params.slidesPerView = 1;
   } else {
-    pSwiper.params.slidesPerView = 5;
+    pSwiper.params.slidesPerView = 4;
   }
   pSwiper.update();
 }
@@ -313,12 +325,21 @@ validationPopup
 
 ////////////////////////////////////
 
-document
-  .querySelector(".btn-modal-call")
-  .addEventListener("click", function () {
-    document.querySelector(".modal-con").classList.remove("hide");
-    document.querySelector(".modal-con").classList.add("show");
+// document
+//   .querySelector(".btn-modal-call")
+//   .addEventListener("click", function () {
+//     document.querySelector(".modal-con").classList.remove("hide");
+//     document.querySelector(".modal-con").classList.add("show");
+//   });
+const modalButtons = document.querySelectorAll(".btn-modal-call");
+
+modalButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    const modalCon = document.querySelector(".modal-con");
+    modalCon.classList.remove("hide");
+    modalCon.classList.add("show");
   });
+});
 
 document
   .querySelector(".modal-con")
@@ -392,4 +413,37 @@ validationFooter.onSuccess((event) => {
   xhr.send(formData);
 
   event.target.reset();
+});
+
+const burger = document.querySelector(".burger");
+const close = document.querySelector(".close");
+const mobMenu = document.querySelector(".mob-menu");
+
+burger.addEventListener("click", () => {
+  mobMenu.classList.add("active");
+  close.classList.remove("hide");
+  close.classList.add("show");
+  burger.classList.remove("show");
+  burger.classList.add("hide");
+});
+
+close.addEventListener("click", () => {
+  mobMenu.classList.remove("active");
+  close.classList.remove("show");
+  close.classList.add("hide");
+  burger.classList.remove("hide");
+  burger.classList.add("show");
+});
+
+var hammertime = new Hammer(document.body, {
+  enable: true,
+  recognizers: [[Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]],
+});
+
+hammertime.on("swipeleft", function (ev) {
+  mobMenu.classList.remove("active");
+});
+
+hammertime.on("swiperight", function (ev) {
+  mobMenu.classList.add("active");
 });
